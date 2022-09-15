@@ -52,10 +52,7 @@ class _HomePageState extends State<HomePage> {
               color: Colors.blue,
               child: const Padding(
                 padding: EdgeInsets.all(20.0),
-                child: CircleAvatar(
-                  backgroundImage: NetworkImage(
-                      'https://cdn-userpic.codeforces.com/2293745/title/381b74ba36b06b67.jpg'),
-                ),
+                child: CircleAvatar(),
               ),
             ),
             Text("hi how are you  1st user ?"),
